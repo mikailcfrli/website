@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.big-box {
+  width: 1440px;
+  background-image: url(./assets/Hero.jpg);
+  height: 962px;
+  .hero-section {
+    width: 1440px;
+    padding-top: 94px;
+    .discover-box {
+      width: 886px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 30px;
+      padding-left: 191px;
+      .first-text {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 60px;
+        color: #ffffff;
+        width: 619px;
+      }
+      .more-info {
+        width: 546px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+      .input-button {
+        display: flex;
+        justify-content: space-between;
+        width: 886px;
+        gap: 60px;
+        div {
+          display: flex;
+          gap: 23px;
+          align-items: center;
+          width: 297px;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 24px;
+          color: #ffffff;
+          border-bottom: 2px solid #bfc0c5;
+        }
+        button {
+          width: 171px;
+          background-color: #1b7dff;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 29px;
+          color: #ffffff;
+          padding: 15px 39px;
+          border: 0;
+        }
+      }
+    }
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    .navigation {
+      width: 1078px;
+      padding-top: 18px;
+      display: flex;
+      justify-content: space-between;
+      .navlinks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          text-decoration: none;
+          color: #ffffff;
+        }
+      }
+      div {
+        width: 490px;
+      }
+    }
+  }
+}
+.card-section{width: 1262px;
+background-color:#ffffff;
+box-shadow:  0px 2px 20px rgba(21, 24, 36, 0.15993);
+height: 655px;
+right: 100px;
+margin:auto;
+margin-top: -82px;
+.card-header{font-family: Lato;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  color:#102746;
+  width: 270px;
+top: 832px;
+left: 188px; }
+  .card-boxes{display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    height: 260px;
+    .card-one{height: 288px;
+      width: 317px;
+      left: 189px;
+      top: 994px;
+      border-radius: 0px; 
+      img{height: 66px;
+        width: 66px;
+        left: 189px;
+        top: 994px;
+        border-radius: 0px;
+        }
+      div{font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        }
+        text{font-family: Lato;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          }
+          p{font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #006DFE;
+          img{height: 8px;
+            width: 33px;
+            left: 317px;
+            top: 1266px;
+            border-radius: 0px;
+            ;}}}
+            .card-two{height: 287px;
+              width: 317px;
+              left: 561px;
+              top: 996px;
+              border-radius: 0px;
+              img{height: 65px;
+                width: 65px;
+                left: 561px;
+                top: 996px;
+                border-radius: 0px;
+                }
+              div{font-family: Lato;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                }
+                text{font-family: Lato;
+                  font-size: 16px;
+                  font-weight: 300;
+                  line-height: 24px;
+                  letter-spacing: 0px;
+                  text-align: left;
+                  }
+                  p{font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #006DFE;
+                  img{height: 8px;
+                    width: 33px;
+                    left: 693px;
+                    top: 1267px;
+                    border-radius: 0px;
+                    }}}
+                    .card-three{height: 280px;
+                      width: 317px;
+                      left: 934px;
+                      top: 1003px;
+                      border-radius: 0px;
+                      img{height: 58px;
+                        width: 58px;
+                        left: 934px;
+                        top: 1003px;
+                        border-radius: 0px;
+                        }
+                      div{font-family: Lato;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        }
+                        text{font-family: Lato;
+                          font-size: 16px;
+                          font-weight: 300;
+                          line-height: 24px;
+                          letter-spacing: 0px;
+                          text-align: left;
+                          }
+                          p{font-family: Lato;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #006DFE;
+                          img{height: 8px;
+                            width: 33px;
+                            left: 1062px;
+                            top: 1267px;
+                            border-radius: 0px;
+                            }}}
+    }}
+
+
