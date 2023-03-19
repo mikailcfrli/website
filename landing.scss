@@ -3,13 +3,16 @@
   margin: 0;
   padding: 0;
 }
+body {
+  width: 1440px;
+}
 .big-box {
   width: 1440px;
   background-image: url(./assets/Hero.jpg);
-  height: 962px;
   .hero-section {
     width: 1440px;
     padding-top: 94px;
+    padding-bottom: 370px;
     .discover-box {
       width: 886px;
       display: flex;
@@ -96,142 +99,158 @@
     }
   }
 }
-.card-section{width: 1262px;
-background-color:#ffffff;
-box-shadow:  0px 2px 20px rgba(21, 24, 36, 0.15993);
-padding-left: auto;
-padding-right: auto;
-margin:auto;
-margin-top: -82px;
-.card-header{font-family: Lato;
-  font-size: 35px;
-  font-weight: 500;
-  line-height: 42px;
-  color:#102746;
-  width: 270px;
-  margin: 140px;
-  padding-left: 99px;
-    padding-top: 98px;
-    margin-bottom: 120px;; }
-  .card-boxes{display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 100px;
-    height: 260px;
-    .card-one{height: 288px;
-      width: 317px;
-      left: 189px;
-      top: 994px;
-      border-radius: 0px; 
-      img{height: 66px;
-        width: 66px;
-        left: 189px;
-        top: 994px;
-        border-radius: 0px;
-        }
-      div{font-family: Lato;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0px;
-        text-align: left;
-        }
-        text{font-family: Lato;
-          font-size: 16px;
-          font-weight: 300;
-          line-height: 24px;
-          letter-spacing: 0px;
-          text-align: left;
+.second-part {
+  width: 1440px;
+  .card-section {
+    max-width: 1262px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -226px;
+    .container {
+      width: 1062px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 98px;
+      .card-header {
+        font-family: Lato;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 42px;
+        color: #102746;
+        width: 270px;
+      }
+      .card-boxes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 260px;
+        .card-one {
+          width: 317px;
+
+          border-radius: 0px;
+          img {
+            width: 66px;
+
+            border-radius: 0px;
           }
-          p{font-family: Lato;
+          div {
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          text {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          p {
+            font-family: Lato;
             font-size: 16px;
             font-weight: 400;
             line-height: 24px;
             letter-spacing: 0px;
             text-align: left;
-            color: #006DFE;
-          img{height: 8px;
-            width: 33px;
-            left: 317px;
-            top: 1266px;
-            border-radius: 0px;
-            ;}}}
-            .card-two{height: 287px;
-              width: 317px;
-              left: 561px;
-              top: 996px;
+            color: #006dfe;
+            img {
+              width: 33px;
+
               border-radius: 0px;
-              img{height: 65px;
-                width: 65px;
-                left: 561px;
-                top: 996px;
-                border-radius: 0px;
-                }
-              div{font-family: Lato;
-                font-size: 18px;
-                font-weight: 400;
-                line-height: 24px;
-                letter-spacing: 0px;
-                text-align: left;
-                }
-                text{font-family: Lato;
-                  font-size: 16px;
-                  font-weight: 300;
-                  line-height: 24px;
-                  letter-spacing: 0px;
-                  text-align: left;
-                  }
-                  p{font-family: Lato;
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 24px;
-                    letter-spacing: 0px;
-                    text-align: left;
-                    color: #006DFE;
-                  img{height: 8px;
-                    width: 33px;
-                    left: 693px;
-                    top: 1267px;
-                    border-radius: 0px;
-                    }}}
-                    .card-three{height: 280px;
-                      width: 317px;
-                      left: 934px;
-                      top: 1003px;
-                      border-radius: 0px;
-                      img{height: 58px;
-                        width: 58px;
-                        left: 934px;
-                        top: 1003px;
-                        border-radius: 0px;
-                        }
-                      div{font-family: Lato;
-                        font-size: 18px;
-                        font-weight: 400;
-                        line-height: 24px;
-                        letter-spacing: 0px;
-                        text-align: left;
-                        }
-                        text{font-family: Lato;
-                          font-size: 16px;
-                          font-weight: 300;
-                          line-height: 24px;
-                          letter-spacing: 0px;
-                          text-align: left;
-                          }
-                          p{font-family: Lato;
-                            font-size: 16px;
-                            font-weight: 400;
-                            line-height: 24px;
-                            letter-spacing: 0px;
-                            text-align: left;
-                            color: #006DFE;
-                          img{height: 8px;
-                            width: 33px;
-                            left: 1062px;
-                            top: 1267px;
-                            border-radius: 0px;
-                            }}}
-    }}
+            }
+          }
+        }
+        .card-two {
+          width: 317px;
 
+          border-radius: 0px;
+          img {
+            width: 65px;
+            left: 561px;
+            top: 996px;
+            border-radius: 0px;
+          }
+          div {
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          text {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          p {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #006dfe;
+            img {
+              width: 33px;
 
+              border-radius: 0px;
+            }
+          }
+        }
+        .card-three {
+          width: 317px;
+
+          border-radius: 0px;
+          img {
+            height: 58px;
+            width: 58px;
+
+            border-radius: 0px;
+          }
+          div {
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          text {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          p {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #006dfe;
+            img {
+              height: 8px;
+              width: 33px;
+
+              border-radius: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -4,14 +4,18 @@
   padding: 0;
 }
 
+body {
+  width: 1440px;
+}
+
 .big-box {
   width: 1440px;
   background-image: url(./assets/Hero.jpg);
-  height: 962px;
 }
 .big-box .hero-section {
   width: 1440px;
   padding-top: 94px;
+  padding-bottom: 370px;
 }
 .big-box .hero-section .discover-box {
   width: 886px;
@@ -98,47 +102,46 @@
   width: 490px;
 }
 
-.card-section {
-  width: 1262px;
+.second-part {
+  width: 1440px;
+}
+.second-part .card-section {
+  max-width: 1262px;
   background-color: #ffffff;
   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
-  height: 655px;
-  right: 100px;
-  margin: auto;
-  margin-top: -82px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -226px;
 }
-.card-section .card-header {
+.second-part .card-section .container {
+  width: 1062px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 98px;
+}
+.second-part .card-section .container .card-header {
   font-family: Lato;
   font-size: 35px;
   font-weight: 500;
   line-height: 42px;
   color: #102746;
   width: 270px;
-  top: 832px;
-  left: 188px;
 }
-.card-section .card-boxes {
+.second-part .card-section .container .card-boxes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding-left: 100px;
   height: 260px;
 }
-.card-section .card-boxes .card-one {
-  height: 288px;
+.second-part .card-section .container .card-boxes .card-one {
   width: 317px;
-  left: 189px;
-  top: 994px;
   border-radius: 0px;
 }
-.card-section .card-boxes .card-one img {
-  height: 66px;
+.second-part .card-section .container .card-boxes .card-one img {
   width: 66px;
-  left: 189px;
-  top: 994px;
   border-radius: 0px;
 }
-.card-section .card-boxes .card-one div {
+.second-part .card-section .container .card-boxes .card-one div {
   font-family: Lato;
   font-size: 18px;
   font-weight: 400;
@@ -146,7 +149,7 @@
   letter-spacing: 0px;
   text-align: left;
 }
-.card-section .card-boxes .card-one text {
+.second-part .card-section .container .card-boxes .card-one text {
   font-family: Lato;
   font-size: 16px;
   font-weight: 300;
@@ -154,37 +157,30 @@
   letter-spacing: 0px;
   text-align: left;
 }
-.card-section .card-boxes .card-one p {
+.second-part .card-section .container .card-boxes .card-one p {
   font-family: Lato;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  color: #006DFE;
+  color: #006dfe;
 }
-.card-section .card-boxes .card-one p img {
-  height: 8px;
+.second-part .card-section .container .card-boxes .card-one p img {
   width: 33px;
-  left: 317px;
-  top: 1266px;
   border-radius: 0px;
 }
-.card-section .card-boxes .card-two {
-  height: 287px;
+.second-part .card-section .container .card-boxes .card-two {
   width: 317px;
-  left: 561px;
-  top: 996px;
   border-radius: 0px;
 }
-.card-section .card-boxes .card-two img {
-  height: 65px;
+.second-part .card-section .container .card-boxes .card-two img {
   width: 65px;
   left: 561px;
   top: 996px;
   border-radius: 0px;
 }
-.card-section .card-boxes .card-two div {
+.second-part .card-section .container .card-boxes .card-two div {
   font-family: Lato;
   font-size: 18px;
   font-weight: 400;
@@ -192,7 +188,7 @@
   letter-spacing: 0px;
   text-align: left;
 }
-.card-section .card-boxes .card-two text {
+.second-part .card-section .container .card-boxes .card-two text {
   font-family: Lato;
   font-size: 16px;
   font-weight: 300;
@@ -200,37 +196,29 @@
   letter-spacing: 0px;
   text-align: left;
 }
-.card-section .card-boxes .card-two p {
+.second-part .card-section .container .card-boxes .card-two p {
   font-family: Lato;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  color: #006DFE;
+  color: #006dfe;
 }
-.card-section .card-boxes .card-two p img {
-  height: 8px;
+.second-part .card-section .container .card-boxes .card-two p img {
   width: 33px;
-  left: 693px;
-  top: 1267px;
   border-radius: 0px;
 }
-.card-section .card-boxes .card-three {
-  height: 280px;
+.second-part .card-section .container .card-boxes .card-three {
   width: 317px;
-  left: 934px;
-  top: 1003px;
   border-radius: 0px;
 }
-.card-section .card-boxes .card-three img {
+.second-part .card-section .container .card-boxes .card-three img {
   height: 58px;
   width: 58px;
-  left: 934px;
-  top: 1003px;
   border-radius: 0px;
 }
-.card-section .card-boxes .card-three div {
+.second-part .card-section .container .card-boxes .card-three div {
   font-family: Lato;
   font-size: 18px;
   font-weight: 400;
@@ -238,7 +226,7 @@
   letter-spacing: 0px;
   text-align: left;
 }
-.card-section .card-boxes .card-three text {
+.second-part .card-section .container .card-boxes .card-three text {
   font-family: Lato;
   font-size: 16px;
   font-weight: 300;
@@ -246,19 +234,17 @@
   letter-spacing: 0px;
   text-align: left;
 }
-.card-section .card-boxes .card-three p {
+.second-part .card-section .container .card-boxes .card-three p {
   font-family: Lato;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  color: #006DFE;
+  color: #006dfe;
 }
-.card-section .card-boxes .card-three p img {
+.second-part .card-section .container .card-boxes .card-three p img {
   height: 8px;
   width: 33px;
-  left: 1062px;
-  top: 1267px;
   border-radius: 0px;
 }/*# sourceMappingURL=landing.css.map */
